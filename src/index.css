@@ -1,0 +1,74 @@
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1640&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+/* Estilos do container principal */
+#quote-box {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 90%;
+}
+
+/* Estilos do texto e do autor */
+#text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#author {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Estilos do botão */
+#new-quote {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+#new-quote:hover {
+  background-color: #388e3c;
+}
+
+/* Estilos do link para o Twitter */
+#tweet-quote {
+  display: inline-block;
+  margin-left: 1rem;
+  color: #4caf50;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+#tweet-quote:hover {
+  text-decoration: underline;
+}
